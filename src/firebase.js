@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA1ufCllP99hjqZj_0bXb485yiqzTyUW5I",
-  authDomain: "fayez-whats-app.firebaseapp.com",
-  projectId: "fayez-whats-app",
-  storageBucket: "fayez-whats-app.appspot.com",
-  messagingSenderId: "357305722905",
-  appId: "1:357305722905:web:068a30396f7645c4756288",
-  measurementId: "G-EQKMLY7HYZ",
+  apiKey: "AIzaSyAhQ3WD1wYlPLi1Wk2bXGanCTDCUEkl1pM",
+  authDomain: "fayez-whatsapp.firebaseapp.com",
+  projectId: "fayez-whatsapp",
+  storageBucket: "fayez-whatsapp.appspot.com",
+  messagingSenderId: "978090477181",
+  appId: "1:978090477181:web:13dfe0e78a18d2ede65314",
+  measurementId: "G-G56FTLL4BB",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
