@@ -1,0 +1,5 @@
+.main__body {
+  background-image: url('../../../../../../assets/whatsApp-bg-chat.png');
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}

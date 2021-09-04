@@ -1,0 +1,106 @@
+@import url('~halfmoon/css/halfmoon.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jura', sans-serif;
+}
+
+.whats-app-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.whats-app-wrapper {
+  height: 80vh;
+  width: 80vw;
+  position: relative;
+}
+.sidebar {
+  position: absolute;
+}
+
+.whats-app-shadow-container {
+  height: 100%;
+  box-shadow: inset 10px 13px 18px rgba(0, 0, 0, 0.3),
+    4px 3px 12px rgba(0, 0, 0, 0.22);
+}
+
+.dark-mode .main__body {
+  color: white;
+
+  background-image: url('./assets/whatsApp-bg-chat-dark.png');
+}
+
+.dark-mode .no-img {
+  color: white;
+  background-image: url('./assets/no-chat-img-dark.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.no-img {
+  background-image: url('./assets/no-chat-img.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.dark-mode .main__header {
+  color: white;
+  background-color: #2a2f32;
+}
+
+.dark-mode .main__input {
+  color: white;
+  background-color: #2a2f32;
+}
+
+.dark-mode .sidebar__body {
+  color: white;
+}
+
+.dark-mode .sidebar__header {
+  color: white;
+  background-color: #2a2f32;
+}
+
+.sidebar__header {
+  background-color: #ededed;
+}
+.main__header {
+  background-color: #ededed;
+}
+.main__input {
+  background-color: #f6f6f6;
+}
+.sidebar__search {
+  background: rgba(245.725, 245.725, 245.725);
+}
+.sidebar__body {
+  color: black;
+}
+
+.dark-mode .sidebar__body:hover {
+  background-color: #2a2f32;
+}
+
+.sidebar__body:hover {
+  background-color: #f5f5f5;
+}
+
+.dark-mode .sidebar__search {
+  color: white;
+  background-color: #131c21;
+}
+
+.dark-mode .material-icons {
+  color: white;
+}
+
+.material-icons {
+  cursor: pointer;
+}
